@@ -1,0 +1,27 @@
+{
+  "name": "currency-converter_api",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start:prod": "tsc && node ./dist/index.js",
+    "start:dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "keywords": [],
+  "author": "ftp187",
+  "license": "ISC",
+  "description": "API for currency convertion :D",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.9.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "ts-node-dev": "^2.0.0",
+    "zod": "^3.23.8"
+  }
+}
